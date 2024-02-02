@@ -1,1 +1,131 @@
-# inverse_scattering
+# Project Environment Specifications
+
+## Languages and Frameworks
+
+- Python: `3.9.18`
+- TensorFlow: `2.15.0`
+
+## CUDA and cuDNN
+
+- CUDA: `11.2`
+- cuDNN: `8.1.0`
+
+## Libraries
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - asttokens=2.0.5=pyhd3eb1b0_0
+  - backcall=0.2.0=pyhd3eb1b0_0
+  - ca-certificates=2023.12.12=h06a4308_0
+  - comm=0.1.2=py39h06a4308_0
+  - cudatoolkit=11.2.2=hbe64b41_10
+  - cudnn=8.1.0.77=h90431f1_0
+  - debugpy=1.6.7=py39h6a678d5_0
+  - decorator=5.1.1=pyhd3eb1b0_0
+  - exceptiongroup=1.2.0=py39h06a4308_0
+  - executing=0.8.3=pyhd3eb1b0_0
+  - importlib-metadata=7.0.1=py39h06a4308_0
+  - importlib_metadata=7.0.1=hd3eb1b0_0
+  - ipykernel=6.28.0=py39h06a4308_0
+  - ipython=8.15.0=py39h06a4308_0
+  - jedi=0.18.1=py39h06a4308_1
+  - jupyter_client=8.6.0=py39h06a4308_0
+  - jupyter_core=5.5.0=py39h06a4308_0
+  - ld_impl_linux-64=2.38=h1181459_1
+  - libffi=3.4.4=h6a678d5_0
+  - libgcc-ng=11.2.0=h1234567_1
+  - libgomp=11.2.0=h1234567_1
+  - libsodium=1.0.18=h7b6447c_0
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - matplotlib-inline=0.1.6=py39h06a4308_0
+  - ncurses=6.4=h6a678d5_0
+  - nest-asyncio=1.5.6=py39h06a4308_0
+  - openssl=3.0.12=h7f8727e_0
+  - packaging=23.1=py39h06a4308_0
+  - parso=0.8.3=pyhd3eb1b0_0
+  - pexpect=4.8.0=pyhd3eb1b0_3
+  - pickleshare=0.7.5=pyhd3eb1b0_1003
+  - platformdirs=3.10.0=py39h06a4308_0
+  - prompt-toolkit=3.0.43=py39h06a4308_0
+  - psutil=5.9.0=py39h5eee18b_0
+  - ptyprocess=0.7.0=pyhd3eb1b0_2
+  - pure_eval=0.2.2=pyhd3eb1b0_0
+  - pygments=2.15.1=py39h06a4308_1
+  - python=3.9.18=h955ad1f_0
+  - python-dateutil=2.8.2=pyhd3eb1b0_0
+  - pyzmq=25.1.2=py39h6a678d5_0
+  - readline=8.2=h5eee18b_0
+  - setuptools=68.2.2=py39h06a4308_0
+  - six=1.16.0=pyhd3eb1b0_1
+  - sqlite=3.41.2=h5eee18b_0
+  - stack_data=0.2.0=pyhd3eb1b0_0
+  - tk=8.6.12=h1ccaba5_0
+  - tornado=6.3.3=py39h5eee18b_0
+  - traitlets=5.7.1=py39h06a4308_0
+  - typing_extensions=4.9.0=py39h06a4308_1
+  - tzdata=2023d=h04d1e81_0
+  - wcwidth=0.2.5=pyhd3eb1b0_0
+  - wheel=0.41.2=py39h06a4308_0
+  - xz=5.4.5=h5eee18b_0
+  - zeromq=4.3.5=h6a678d5_0
+  - zipp=3.17.0=py39h06a4308_0
+  - zlib=1.2.13=h5eee18b_0
+  - pip:
+    - absl-py==2.1.0
+    - astunparse==1.6.3
+    - cachetools==5.3.2
+    - certifi==2024.2.2
+    - charset-normalizer==3.3.2
+    - cycler==0.12.1
+    - flatbuffers==23.5.26
+    - gast==0.5.4
+    - google-auth==2.27.0
+    - google-auth-oauthlib==1.2.0
+    - google-pasta==0.2.0
+    - grpcio==1.60.1
+    - h5py==3.10.0
+    - idna==3.6
+    - keras==2.15.0
+    - kiwisolver==1.4.5
+    - libclang==16.0.6
+    - markdown==3.5.2
+    - markupsafe==2.1.4
+    - ml-dtypes==0.2.0
+    - natsort==8.4.0
+    - numpy==1.26.3
+    - nvidia-cublas-cu12==12.2.5.6
+    - nvidia-cuda-cupti-cu12==12.2.142
+    - nvidia-cuda-nvcc-cu12==12.2.140
+    - nvidia-cuda-nvrtc-cu12==12.2.140
+    - nvidia-cuda-runtime-cu12==12.2.140
+    - nvidia-cudnn-cu12==8.9.4.25
+    - nvidia-cufft-cu12==11.0.8.103
+    - nvidia-curand-cu12==10.3.3.141
+    - nvidia-cusolver-cu12==11.5.2.141
+    - nvidia-cusparse-cu12==12.1.2.141
+    - nvidia-nccl-cu12==2.16.5
+    - nvidia-nvjitlink-cu12==12.2.140
+    - oauthlib==3.2.2
+    - opt-einsum==3.3.0
+    - pip==23.3.2
+    - protobuf==4.23.4
+    - pyasn1==0.5.1
+    - pyasn1-modules==0.3.0
+    - pyparsing==3.1.1
+    - requests==2.31.0
+    - requests-oauthlib==1.3.1
+    - rsa==4.9
+    - scipy==1.12.0
+    - tensorboard==2.15.1
+    - tensorboard-data-server==0.7.2
+    - tensorflow==2.15.0.post1
+    - tensorflow-estimator==2.15.0
+    - tensorflow-io-gcs-filesystem==0.35.0
+    - termcolor==2.4.0
+    - urllib3==2.2.0
+    - werkzeug==3.0.1
+    - wrapt==1.14.1
